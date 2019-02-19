@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E32380BB221C31B4009BA7DE /* 犬１.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E32380BA221C31B4009BA7DE /* 犬１.jpeg */; };
+		E32380BD221C31C5009BA7DE /* 犬３.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E32380BC221C31C5009BA7DE /* 犬３.jpeg */; };
 		E38C44C22217EEE700DC9EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38C44C12217EEE700DC9EDF /* AppDelegate.swift */; };
 		E38C44C42217EEE700DC9EDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38C44C32217EEE700DC9EDF /* ViewController.swift */; };
 		E38C44C72217EEE700DC9EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38C44C52217EEE700DC9EDF /* Main.storyboard */; };
 		E38C44C92217EEEA00DC9EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38C44C82217EEEA00DC9EDF /* Assets.xcassets */; };
 		E38C44CC2217EEEA00DC9EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38C44CA2217EEEA00DC9EDF /* LaunchScreen.storyboard */; };
 		E38C44D42217F19B00DC9EDF /* 犬２.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E38C44D32217F19B00DC9EDF /* 犬２.jpeg */; };
-		E38C44DB2218035100DC9EDF /* 犬１.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E38C44DA2218035100DC9EDF /* 犬１.jpeg */; };
-		E38C44DF221803D600DC9EDF /* 犬３.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E38C44DE221803D600DC9EDF /* 犬３.jpg */; };
 		E38C44E1221903AB00DC9EDF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38C44E0221903AB00DC9EDF /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E32380BA221C31B4009BA7DE /* 犬１.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犬１.jpeg"; sourceTree = "<group>"; };
+		E32380BC221C31C5009BA7DE /* 犬３.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犬３.jpeg"; sourceTree = "<group>"; };
 		E38C44BE2217EEE700DC9EDF /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38C44C12217EEE700DC9EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E38C44C32217EEE700DC9EDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		E38C44CB2217EEEA00DC9EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E38C44CD2217EEEA00DC9EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38C44D32217F19B00DC9EDF /* 犬２.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犬２.jpeg"; sourceTree = "<group>"; };
-		E38C44DA2218035100DC9EDF /* 犬１.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "犬１.jpeg"; path = "../../../Desktop/犬１.jpeg"; sourceTree = "<group>"; };
-		E38C44DE221803D600DC9EDF /* 犬３.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "犬３.jpg"; path = "../../../Desktop/犬３.jpg"; sourceTree = "<group>"; };
 		E38C44E0221903AB00DC9EDF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -63,10 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				E38C44C32217EEE700DC9EDF /* ViewController.swift */,
-				E38C44DE221803D600DC9EDF /* 犬３.jpg */,
-				E38C44DA2218035100DC9EDF /* 犬１.jpeg */,
 				E38C44C12217EEE700DC9EDF /* AppDelegate.swift */,
 				E38C44D32217F19B00DC9EDF /* 犬２.jpeg */,
+				E32380BA221C31B4009BA7DE /* 犬１.jpeg */,
+				E32380BC221C31C5009BA7DE /* 犬３.jpeg */,
 				E38C44C52217EEE700DC9EDF /* Main.storyboard */,
 				E38C44C82217EEEA00DC9EDF /* Assets.xcassets */,
 				E38C44E0221903AB00DC9EDF /* ResultViewController.swift */,
@@ -134,9 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38C44DF221803D600DC9EDF /* 犬３.jpg in Resources */,
+				E32380BD221C31C5009BA7DE /* 犬３.jpeg in Resources */,
 				E38C44CC2217EEEA00DC9EDF /* LaunchScreen.storyboard in Resources */,
-				E38C44DB2218035100DC9EDF /* 犬１.jpeg in Resources */,
+				E32380BB221C31B4009BA7DE /* 犬１.jpeg in Resources */,
 				E38C44D42217F19B00DC9EDF /* 犬２.jpeg in Resources */,
 				E38C44C92217EEEA00DC9EDF /* Assets.xcassets in Resources */,
 				E38C44C72217EEE700DC9EDF /* Main.storyboard in Resources */,

@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     let imageNameArray = [
     "犬１.jpeg",
     "犬２.jpeg",
-    "犬３.jpg",
+    "犬３.jpeg",
     ]
     
     if dispImageNo < 0 {
