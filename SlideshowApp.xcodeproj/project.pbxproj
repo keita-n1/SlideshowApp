@@ -12,6 +12,10 @@
 		E38C44C72217EEE700DC9EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38C44C52217EEE700DC9EDF /* Main.storyboard */; };
 		E38C44C92217EEEA00DC9EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38C44C82217EEEA00DC9EDF /* Assets.xcassets */; };
 		E38C44CC2217EEEA00DC9EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38C44CA2217EEEA00DC9EDF /* LaunchScreen.storyboard */; };
+		E38C44D42217F19B00DC9EDF /* 犬２.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E38C44D32217F19B00DC9EDF /* 犬２.jpeg */; };
+		E38C44DB2218035100DC9EDF /* 犬１.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E38C44DA2218035100DC9EDF /* 犬１.jpeg */; };
+		E38C44DF221803D600DC9EDF /* 犬３.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E38C44DE221803D600DC9EDF /* 犬３.jpg */; };
+		E38C44E1221903AB00DC9EDF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38C44E0221903AB00DC9EDF /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E38C44C82217EEEA00DC9EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E38C44CB2217EEEA00DC9EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E38C44CD2217EEEA00DC9EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38C44D32217F19B00DC9EDF /* 犬２.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犬２.jpeg"; sourceTree = "<group>"; };
+		E38C44DA2218035100DC9EDF /* 犬１.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "犬１.jpeg"; path = "../../../Desktop/犬１.jpeg"; sourceTree = "<group>"; };
+		E38C44DE221803D600DC9EDF /* 犬３.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "犬３.jpg"; path = "../../../Desktop/犬３.jpg"; sourceTree = "<group>"; };
+		E38C44E0221903AB00DC9EDF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +62,14 @@
 		E38C44C02217EEE700DC9EDF /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
-				E38C44C12217EEE700DC9EDF /* AppDelegate.swift */,
 				E38C44C32217EEE700DC9EDF /* ViewController.swift */,
+				E38C44DE221803D600DC9EDF /* 犬３.jpg */,
+				E38C44DA2218035100DC9EDF /* 犬１.jpeg */,
+				E38C44C12217EEE700DC9EDF /* AppDelegate.swift */,
+				E38C44D32217F19B00DC9EDF /* 犬２.jpeg */,
 				E38C44C52217EEE700DC9EDF /* Main.storyboard */,
 				E38C44C82217EEEA00DC9EDF /* Assets.xcassets */,
+				E38C44E0221903AB00DC9EDF /* ResultViewController.swift */,
 				E38C44CA2217EEEA00DC9EDF /* LaunchScreen.storyboard */,
 				E38C44CD2217EEEA00DC9EDF /* Info.plist */,
 			);
@@ -122,7 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38C44DF221803D600DC9EDF /* 犬３.jpg in Resources */,
 				E38C44CC2217EEEA00DC9EDF /* LaunchScreen.storyboard in Resources */,
+				E38C44DB2218035100DC9EDF /* 犬１.jpeg in Resources */,
+				E38C44D42217F19B00DC9EDF /* 犬２.jpeg in Resources */,
 				E38C44C92217EEEA00DC9EDF /* Assets.xcassets in Resources */,
 				E38C44C72217EEE700DC9EDF /* Main.storyboard in Resources */,
 			);
@@ -137,6 +152,7 @@
 			files = (
 				E38C44C42217EEE700DC9EDF /* ViewController.swift in Sources */,
 				E38C44C22217EEE700DC9EDF /* AppDelegate.swift in Sources */,
+				E38C44E1221903AB00DC9EDF /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
