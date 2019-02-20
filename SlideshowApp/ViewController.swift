@@ -28,6 +28,9 @@ class ViewController: UIViewController {
     if self.timer != nil {
       pauseButton.setTitle("再生", for: .normal)
     }
+    
+    self.timer = nil
+    
     }
   
   @IBOutlet weak var imageView: UIImageView!
