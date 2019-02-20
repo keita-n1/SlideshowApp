@@ -13,10 +13,27 @@ class ViewController: UIViewController {
   @IBAction func onTapImage(_ sender: Any) {
    performSegue(withIdentifier: "result", sender:nil )
     
-  }
+    if self.timer != nil {
+      self.timer.invalidate()
+    }
+    
+    if self.timer != nil {
+      startTimer.isEnabled = true
+    }
+    
+    if self.timer != nil {
+      badkButton.isEnabled = true
+    }
+    
+    if self.timer != nil {
+      pauseButton.setTitle("再生", for: .normal)
+    }
+    }
   
   @IBOutlet weak var imageView: UIImageView!
   
+
+  @IBOutlet weak var pauseButton: UIButton!
   @IBAction func pauseButton(_ sender: Any) {
      if self.timer == nil {
       self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(updateTimer( _:)), userInfo: nil, repeats: true)
@@ -37,6 +54,11 @@ class ViewController: UIViewController {
        badkButton.isEnabled = true
     }
     
+    if self.timer != nil {
+      pauseButton.setTitle("停止", for: .normal)
+    }else if self.timer == nil {
+      pauseButton.setTitle("再生", for: .normal )
+    }
   }
   
   @IBOutlet weak var startTimer: UIButton!
@@ -53,6 +75,7 @@ class ViewController: UIViewController {
     displayImage()
   }
   
+  let button = UIButton()
   
   var timer: Timer!
   
